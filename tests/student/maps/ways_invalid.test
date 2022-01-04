@@ -1,0 +1,11 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+ways 0 0 0 zero
+ways 0 0 0
+ways 0 0 0 0 0
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR:
+ERROR:
+ERROR:
+END

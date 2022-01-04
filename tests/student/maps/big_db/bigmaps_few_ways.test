@@ -1,0 +1,8 @@
+INPUT
+map /ltmp/maps_big_db/maps.sqlite3
+ways 40.1581762 -73.7485663 40 -73.3
+OUTPUT
+map set to /ltmp/maps_big_db/maps.sqlite3
+/w/4015.7374.42295268.0.1
+/w/4016.7374.42295268.0.2
+END

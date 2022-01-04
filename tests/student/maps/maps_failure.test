@@ -1,0 +1,13 @@
+INPUT
+map
+map pom.xml
+map data/maps/not_exist.sqlite3
+map data/maps/smallTimdb.sqlit3
+map data/maps/smallMaps.sqlite3
+OUTPUT
+ERROR:
+ERROR:
+ERROR:
+ERROR:
+map set to data/maps/smallMaps.sqlite3
+END

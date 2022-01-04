@@ -1,0 +1,9 @@
+INPUT
+map /ltmp/maps_big_db/maps.sqlite3
+nearest 40.1581762 -73.7485663
+nearest 41.4099128 -71.510582
+OUTPUT
+map set to /ltmp/maps_big_db/maps.sqlite3
+/n/4130.7185.201622857
+/n/4140.7151.201296044
+END

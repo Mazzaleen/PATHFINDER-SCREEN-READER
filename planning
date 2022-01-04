@@ -1,0 +1,57 @@
+PLANNING DOCUMENT
+
+User Stories (Sprint):
+-Aries: can't read abnormal color pairings for text, reads better at 2-3x speed, reads the wrong information on pages,
+wants to click a part of the page to read it, wants different voice options
+-Capricorn:
+-Virgo: doesn't notice font changes, eyes get tired with long documents, has trouble with contextual clues and formatting,
+mostly reads long legal documents, wants different voice options, cares about knowing the colors of things
+-Sagittarius: Legally blind, likes to use magnifier, wants to know what is being read and how to control the screen reader
+-Libra: can read screen fine with glasses on, not interested (Pathfinder candidate potentially?)
+-Scorpio: can read screen fine without any help, not interested(Pathfinder candidate potentially?)
+
+User Stories (Integration):
+- Aries:
+No security concerns
+Was a screenreader candidate. So We ignored (Also nothing on Edstem)
+Also very short and open ended responses.
+
+- Capricorn:
+Prefers pedestrian routes to destinations (so ignoring roads and highways)
+Visual representation
+
+-Virgo:
+Very close-ended response questions which indicates that they are not interested (Screen Reader candidate)
+
+-Sagittarius:
+Sharing where they are located to family and friends
+Verbal Directions since they cant read out map (legally blind)
+
+- Libra:
+Indifferent to verbal directions or visual directions
+Wants to give kids directions to school, but avoid areas with high population density (very crowded)
+
+- Scorpio:
+Visual Representation
+Wants to take paths that other people havent taken previously (??)
+Prefers walks (pedestrian routes) that have low population density and traffic.
+
+First checkin TODO:
+-ways command
+-API endpoint to get stuff between back and frontent
+-basic hard-coded location lookup
+-display initial map of brown
+
+GDPR information:
+-general data protection regulation
+-personal data: name, contact details, location, race, sexual orientation
+-must need consent to keep personal information
+-without consent, companies must delete personal information
+-up to 4% of annual revenue as a penalty for not complying
+
+Questions:
+-what requirements imposed: must get consent for all the information used (name, location, etc), must delete data if
+there is no consent or if somebody requests it
+-hard or easy: this shouldn't be too hard, just add a delete function and ask for consent beforehand
+-other situations: yes! if you have a large database, social media site, etc and have to retroactively go through
+and do this after the law is passed

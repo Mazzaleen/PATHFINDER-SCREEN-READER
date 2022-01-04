@@ -1,0 +1,15 @@
+INPUT
+map data/maps/smallMaps.sqlite3
+nearest 0 0 0
+nearest 0
+nearest 50 -50
+nearets 50 -50
+nearest 50 fifty
+OUTPUT
+map set to data/maps/smallMaps.sqlite3
+ERROR:
+ERROR:
+/n/2
+ERROR:
+ERROR:
+END

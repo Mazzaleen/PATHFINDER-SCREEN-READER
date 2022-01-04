@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test2</title>
+    <script type="application/javascript" src="ScreenReader.js"></script>
+    <!-- The above line loads in ScreenReader.js to the HTML file -->
+    <style>
+        td,
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px;
+        }
+        td {
+            text-align: center;
+        }
+        tr:nth-child(even) {
+            background-color: #eee;
+        }
+        th[scope="col"] {
+            background-color: #696969;
+            color: #fff;
+        }
+        th[scope="row"] {
+            background-color: #d7d9f2;
+        }
+        caption {
+            padding: 10px;
+            caption-side: bottom;
+        }
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-family: sans-serif;
+            font-size: .8rem;
+        }
+        form {background-color: #00FF00}
+        fieldset {background-color: #FF0000}
+        select {background-color: #45a1ff}
+    </style>
+    <link type="text/css" rel="stylesheet" href="highlight.css"/>
+</head>
+<body>
+    <h2>
+        This test is more advanced with more advanced elements.
+    </h2>
+    <br>
+    <table>
+        <caption> Test Table </caption>
+        <tr>
+            <th> Person </th>
+            <th> Number </th>
+        </tr>
+        <tr>
+            <td>Ray</td>
+            <td>58105</td>
+        </tr>
+        <tr>
+            <td>Nick</td>
+            <td>18501</td>
+        </tr>
+        <tfoot>
+            <tr>
+                <td> Ray + Nick </td>
+                <td> 76606 </td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <figcaption> Play Photo ID by Remi Wolf: </figcaption>
+    <audio controls src="PhotoID.mp3"></audio>
+    <br>
+    <form>
+        <fieldset>
+            <label for="box"> Favorite color: </label>
+            <input type="text" id="box">
+            <label for="box2"> Favorite fruit: </label>
+            <input type="text" id="box2">
+            <select name="animals" id="animals">
+                <option value=""> Pick favorite animal! </option>
+                <option value="Kangaroo"> Kangaroo </option>
+                <option value="Alligator"> Alligator </option>
+                <option value="Rabbit"> Rabbit </option>
+            </select>
+        </fieldset>
+    </form>
+    <br>
+    <label for="progress">Loading...</label>
+    <progress id="progress" max="100" value="30">30%</progress>
+    <br>
+    <label for="essay">Please type your essay here (500-650 words):</label>
+    <textarea id="essay" name="essay" rows="10" cols="50">I was only 15 when...</textarea>
+</body>
+</html>

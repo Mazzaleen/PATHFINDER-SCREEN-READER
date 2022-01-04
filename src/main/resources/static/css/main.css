@@ -1,0 +1,30 @@
+input[type="number"] {
+  width: 3em;
+}
+
+mark {
+background: rgba(150, 150, 240, 0.85)
+
+}
+body {
+background-color: #FF0069;
+background-image: url("longstar.png");
+background-repeat: repeat;
+}
+#some-id {
+    color: #546616;
+}
+.some-class {
+    color: #031225;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

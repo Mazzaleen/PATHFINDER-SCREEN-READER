@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test1</title>
+    <script type="application/javascript" src="ScreenReader.js"></script>
+    <!-- The above line loads in ScreenReader.js to the HTML file -->
+    <style>
+        aside {width: 40%;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float: right;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #29627e;}
+        footer {display: flex;
+            justify-content: center;
+            padding: 5px;
+            background-color: #45a1ff;
+            color: #fff;}
+        header {background-color: #FF0000; color: #000000;}
+        nav {background-color: #FFFF00; color: #000000}
+        blockquote {background-color: #00FF00;}
+        cite {background-color: #00FF00;}
+        figcaption {font-style: italic;}
+    </style>
+    <link type="text/css" rel="stylesheet" href="highlight.css"/>
+</head>
+<body>
+    <header>
+        <p> This is the header. </p>
+    </header>
+    <nav class="Test2">
+        <ol>
+            <li class="Test2">
+                <a href = "https://cs.brown.edu/courses/cs0320/">CS32</a>
+            </li>
+            <li class="Test2">
+                <a href = "https://www.brown.edu/information-technology/software/">Software</a>
+                <ul>
+                    <li> stuff like powerpoint is included here</li>
+                </ul>
+            </li>
+        </ol>
+    </nav>
+    <main>
+        <article class="Test">
+            <h1>h1</h1>
+            <h2>h2</h2>
+            <h3>h3</h3>
+            <h4>h4</h4>
+            <h5>h5</h5>
+            <h6>h6</h6>
+            <p> The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly, but gets faster each minute after you hear this signal. beep. A single lap should be completed each time you hear this sound. ding. Remember to run in a straight line, and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark, get ready, start.</p>
+            <aside>
+                <p> Aside: I never liked the pacer test. </p>
+            </aside>
+            <br>
+            <blockquote cite = "https://www.linkedin.com/">
+                <p> Just like in elementary school, I'm always on that grind. </p>
+            </blockquote>
+            <cite>
+                -Some LinkedIn post somewhere
+            </cite>
+            <br>
+            <figure>
+                <img src="https://partycity6.scene7.com/is/image/PartyCity/_pdp_sq_?$_500x500_$&$product=PartyCity/278696" alt="Nerd">
+                <figcaption> this is us! </figcaption>
+            </figure>
+            <br>
+            <label for="box"> Type here: </label>
+            <input type="text" id="box">
+            <br>
+            <label for="check"> Check this: </label>
+            <input type="checkbox" id="check">
+            <br>
+            <button type="button">
+                This button does nothing
+            </button>
+        </article>
+    </main>
+
+    <section>
+        <p> The document is now ending! </p>
+        <footer>
+            <p>This is a footer.</p>
+        </footer>
+    </section>
+</body>
+</html>

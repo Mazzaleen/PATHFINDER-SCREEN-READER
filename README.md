@@ -1,4 +1,4 @@
-#PATHFINDER/SCREEN READER
+# PATHFINDER/SCREEN READER
 
 Screen-Reader that parses and reads all content on screen, contains settings to toggle speed, pitch and accent.
 Pathfinder that generates the most optimal route from one point on college hill to another using Dijkstra's algorithm and stakeholder specifications.
